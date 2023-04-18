@@ -1,0 +1,57 @@
+.container{
+    height: 400px;
+    border: 2px solid green ;
+    display: flex;
+    /* by default main axis is in horizontal direction  */
+   
+    /* to change it vertically 
+    flex-direction: column; */
+
+    /* to change it horizontally  */
+    flex-direction: row;
+   
+   
+    /* width intact
+    flex-wrap: wrap; */
+    
+    /* align items on main axis (horizontal) using justift content property */
+    /* all elements on left side
+    justify-content: flex-start;
+
+    /* all elements on right side */
+    /* justify-content: flex-end; */
+
+    /* all elements on center */
+    /* justify-content: center; */
+
+    /* equal spaces in b/w elements except left and reght...only the space b/w elements */
+    /* justify-content: space-around; */
+
+    /* equal spaces every where */
+    justify-content: space-evenly;
+
+    /* Items will have space between them first and last item will stick to parent edge  */
+    /* justify-content: space-between;  */
+
+
+
+    /* align items on cross axis (vertical) using align-items property */
+    /* all elements on top of the parent  */
+    /* align-items: flex-start; */
+
+    /* all elements on bottom of the parent  */
+    /* align-items: flex-end; */
+    align-items: center;
+    /* align-items: stretch; */
+
+    gap: 10px;
+
+    
+    
+}
+.box{
+    border: 1px solid brown;
+    background-color: aqua;
+}
+
+

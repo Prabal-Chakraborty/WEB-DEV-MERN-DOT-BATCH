@@ -1,0 +1,22 @@
+.box{
+    border: 1px solid black;
+    height: 200px;
+    width: 270px;
+    background-image: linear-gradient(to bottom right, orange,white,green);
+}
+/*This is Radial Gradient*/
+.myDiv{
+    margin-top: 10px;
+    border: 1px solid black;
+    height: 300px;
+    width: 250px;
+    background-image: radial-gradient(circle, orange, white, green);
+}
+.cdiv{
+    margin-top: 10px;
+    border: 1px solid black;
+    height: 300px;
+    width: 250px;
+    background-image: conic-gradient(from 180deg,red, yellow, green, blue, black);
+    
+}
